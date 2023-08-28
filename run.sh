@@ -10,7 +10,7 @@ python ./app.py &
 pids=$(pgrep -f "app.py")
 
 # Afficher les PID
-echo "Voici Les PID des instances Python attachées à app.py : $pids"
+echo "Voici le PID de l'instance Python attachée à app.py : $pids"
 
 # Attendre un court instant pour que Flask démarre complètement
 sleep 3
